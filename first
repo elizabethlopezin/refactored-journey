@@ -1,0 +1,7 @@
+words = ["apple", "banana", "pear", "orange"]
+search_word = "banana"
+if words.include?(search_word)
+  puts "#{search_word} найдено в массиве"
+else
+  puts "#{search_word} не найдено в массиве"
+end
